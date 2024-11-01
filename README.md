@@ -1,7 +1,6 @@
 # fairness_in_ml_multiobjective_approach
-ficheiro 'lexicographic_tournament' aplica uma função de seleção lexicográfica diferente da default do pymoo e realiza testes para vários thresholds e tendo diferentes objetivos como prioridade
+The file 'lexicographic_tournament' applies a lexicographic selection function different from the default in Pymoo and runs tests for various thresholds, prioritizing different objectives.
 
-ficheiro 'neural_network_adult_income_dataset.ipynb' treina uma rede neuronal simples para o 'adult_income_dataset' e calcula os vários tipos de fairness através da função 'fairness_calculator'
+The file 'neural_network_adult_income_dataset.ipynb' trains a simple neural network for the adult_income_dataset and calculates various fairness metrics using the 'fairness_calculator' function.
 
-ficheiro 'fairness_in_ml_multiobjective_approach_adult_income_dataset.ipynb' junta ambas as funções testadas 'lexicographic_tournment' e 'fairness_calculator' para realizar vários testes sobre a pareto front
-(usa uma variável de estado para identificar em que teste está a permitir fazer pausas a correr o código)
+The file 'fairness_in_ml_multiobjective_approach_adult_income_dataset.ipynb' combines both functions tested—'lexicographic_tournament' and 'fairness_calculator'—to perform multiple tests on the Pareto front (it uses a state variable to identify the current test, allowing for pauses when running the code).
